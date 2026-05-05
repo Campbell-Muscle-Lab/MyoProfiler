@@ -1,9 +1,9 @@
-title: MyofibrilProfiler
+title: MyoProfiler
 description: An open-source to extract profiles of striations
 remote_theme: pmarsceill/just-the-docs
 
 url: https://www.campbellmusclelab.org
 
 aux_links:
-  MyofibrilProfiler Repo: https://github.com/campbell-muscle-lab/myofibrilprofiler
+  MyoProfiler Repo: https://github.com/campbell-muscle-lab/myofibrilprofiler
   UKTCVR Repo: https://campbell-muscle-lab.github.io/MATLAB_UKTCVR/
