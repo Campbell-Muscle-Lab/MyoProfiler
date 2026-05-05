@@ -1,5 +1,5 @@
 ---
-title: Cloning MyofibrilProfiler repository
+title: Cloning MyoProfiler repository
 has_children: false
 parent: Installation
 nav_order: 1
@@ -8,11 +8,11 @@ layout: page
 
 # Installation
 
-## Cloning MyofibrilProfiler Repository
+## Cloning MyoProfiler Repository
 
-This page instructs you on how to clone the MyofibrilProfiler repository.
+This page instructs you on how to clone the MyoProfiler repository.
 
-We recommend cloning the MyofibrilProfiler repository using the [GitHub Desktop client.](https://desktop.github.com/)
+We recommend cloning the MyoProfiler repository using the [GitHub Desktop client.](https://desktop.github.com/)
 
 Clicking on any of the images on this page will open a larger version in a new browser window.
 
@@ -32,13 +32,13 @@ Click the URL tab shown in the red rectangle.
 
 <a href="media/all_repos.png" target="_blank">![All repos](media/all_repos.png)</a>
 
-The URL of the MyofibrilProfiler repo is :
+The URL of the MyoProfiler repo is :
 ```
-https://github.com/Campbell-Muscle-Lab/MyofibrilProfiler.git
+https://github.com/Campbell-Muscle-Lab/MyoProfiler.git
 ```
 
 Enter the URL in the textbox shown in the red rectangle. Select the location you would like to store the cloned repository.
 
-<a href="media/myofibril_profiler_repo.png" target="_blank">![MyofibrilProfiler repo](media/myofibril_profiler_repo.png)</a>
+<a href="media/myofibril_profiler_repo.png" target="_blank">![MyoProfiler repo](media/myofibril_profiler_repo.png)</a>
 
-MyofibrilProfiler repo is successfully cloned to your computer.
+MyoProfiler repo is successfully cloned to your computer.

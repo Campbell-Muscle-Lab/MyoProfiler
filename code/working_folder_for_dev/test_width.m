@@ -19,7 +19,7 @@ y = [198, 349, 567, 854, 1011, 1318]
 
 % Fit the spline
 cs = spline(x, y);
-xs = linspace(x(1), x(end), 1000);
+xs = linspace(x(1), x(end), 10000);
 ys = ppval(cs, xs);
 
 % Open the image

@@ -8,15 +8,15 @@ layout: page
 
 # **Load analysis**
 
-This tutorial provides simple instructions on how to load an existing analysis with MyofibrilProfiler. Clicking on any of the images on this page will open a larger version in a new browser window. The preparation shown here was probed for myosin heavy chain and myosin light chain kinase.
+This tutorial provides simple instructions on how to load an existing analysis with MyoProfiler. Clicking on any of the images on this page will open a larger version in a new browser window. The preparation shown here was probed for myosin heavy chain and myosin light chain kinase.
 
 ## Getting started
 
-+ Using the MyofibrilProfiler through MATLAB:
-    - Launch MATLAB and navigate to the Apps tab on the top menu. Find the MyofibrilProfiler under My Apps and start the application by clicking it. The instructions on how to locate the Apps tab can be found [here](../../installation/installing_matlab_app/installing_matlab_app.html).
++ Using the MyoProfiler through MATLAB:
+    - Launch MATLAB and navigate to the Apps tab on the top menu. Find the MyoProfiler under My Apps and start the application by clicking it. The instructions on how to locate the Apps tab can be found [here](../../installation/installing_matlab_app/installing_matlab_app.html).
 
-+ Using the MyofibrilProfiler as a stand-alone application:
-    - Locate your `MyofibrilProfiler.exe` shortcut and start the application by double-clicking it.
++ Using the MyoProfiler as a stand-alone application:
+    - Locate your `MyoProfiler.exe` shortcut and start the application by double-clicking it.
 
 After a few seconds, you should see the program window, given below. 
 

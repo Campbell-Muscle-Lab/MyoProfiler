@@ -8,15 +8,15 @@ layout: page
 
 # **Start new analysis**
 
-This tutorial provides simple instructions on performing a new analysis with MyofibrilProfiler. Clicking on any of the images on this page will open a larger version in a new browser window. The preparation shown here was probed for myosin heavy chain and an associated protein.
+This tutorial provides simple instructions on performing a new analysis with MyoProfiler. Clicking on any of the images on this page will open a larger version in a new browser window. The preparation shown here was probed for myosin heavy chain and an associated protein.
 
 ## Getting started
 
-+ Using the MyofibrilProfiler through MATLAB:
-    - Launch MATLAB and navigate to the Apps tab on the top menu. Find the MyofibrilProfiler under My Apps and start the application by clicking it. The instructions on how to locate the Apps tab can be found [here](../../installation/installing_matlab_app/installing_matlab_app.html).
++ Using the MyoProfiler through MATLAB:
+    - Launch MATLAB and navigate to the Apps tab on the top menu. Find the MyoProfiler under My Apps and start the application by clicking it. The instructions on how to locate the Apps tab can be found [here](../../installation/installing_matlab_app/installing_matlab_app.html).
 
-+ Using the MyofibrilProfiler as a stand-alone application:
-    - Locate your `MyofibrilProfiler.exe` shortcut and start the application by double-clicking it.
++ Using the MyoProfiler as a stand-alone application:
+    - Locate your `MyoProfiler.exe` shortcut and start the application by double-clicking it.
 
 After a few seconds, you should see the program window, given below. 
 
@@ -30,7 +30,7 @@ The interface is divided into multiple panels:
     + Channel Colormap: Users can either use the emission wavelengths of each channel or [a generic colormap](https://en.wikipedia.org/wiki/Parula) for pseudo coloring and trace colors.
     + ROI: The regions of interest (ROI) is selected through this panel. By default, the ROIs are derived from splines, but users can expand them into quadrilaterals to average around the spline.
     + Profile: The software uses a [peak finding algorithm](https://www.mathworks.com/help/signal/ref/findpeaks.html) to identify the crescents and troughs in the profile. Users can change the default values through this panel. More detail on these options can be found below.
-- Image Display: Loaded images are displayed in this panel. Channel tabs and an additional tab for the merged image is automatially generated.
+- Image Display: Loaded images are displayed in this panel. Channel tabs and an additional tab for the merged image is automatically generated.
 - Profiler Panel: Extracted profiles are shown in this panel. Since the profiles are two-dimensional, there are additional displays for "views" from horizontal and vertical image axes.
 - Sarcomere Panel: Analyzed sarcomere profiles are shown in this panel. Sarcomere length and full half max width are calculated and tabulated.
 
@@ -38,7 +38,7 @@ The interface is divided into multiple panels:
 
 Users start their analysis by loading their images to the software environment. They can either use the commercial image formats, such as Nikon originated ".ND2" files, or standard image formats, for instance ".TIF" or ".PNG" files.
 
-The MyofibrilProfiler is built to support Nikon images. The image support will be extended in the future and the tutorial will be updated as needed.
+The MyoProfiler is built to support Nikon images. The image support will be extended in the future and the tutorial will be updated as needed.
 
 ### Loading Nikon .ND2 images
 
@@ -54,7 +54,7 @@ The Nikon option opens the below file dialog. The dialog automatically looks for
 
 <a href="media/nikon_file_dialog.png" target="_blank">![nikon_file_dialog](media/nikon_file_dialog.png)</a>
 
-.ND2 files packages data and information from utilized channels under a single file. MyofibrilProfiler directly reads into the files and extract taken images from individual channels, pixels to lengthscle (um) calibration, and emission wavelengths.
+.ND2 files packages data and information from utilized channels under a single file. MyoProfiler directly reads into the files and extract taken images from individual channels, pixels to lengthscle (um) calibration, and emission wavelengths.
 
 Loaded images appear under the Image Display. The channel tabs are automatically generated. Below image shows the image from the Channel 1, shown in red rectangle.
 
@@ -100,7 +100,7 @@ Click OK after the fields are filled out.
 
 In this tutorial the user provided that there are 2 images with 670 and 490 nm emission wavelengths, respectively for Channel 1 and 2. Please note that these image are exported from Nikon example.
 
-MyofibrilProfiler asks for users to load the image for Channel 1 first. Navigate to your folder with the image files and click Open.
+MyoProfiler asks for users to load the image for Channel 1 first. Navigate to your folder with the image files and click Open.
 
 <a href="media/standard_formats_channel_1.png" target="_blank">![standard_formats_channel_1](media/standard_formats_channel_1.png)</a>
 
@@ -134,7 +134,7 @@ Once clicked the mouse cursor changes to a crosshair for users to pick points. U
 
 <a href="media/select_roi.png" target="_blank">![select_roi](media/select_roi.png)</a>
 
-Once the ROI is determined, MyofibrilProfiler defines a spline using the selected points as the controls. The generated spline appears as magenta and in this case it resembles a line as there are only 2 control points. Since all the channels are simultaneously analyzed, software copies the ROI and the splines onto the other channels. Users can define the ROIs in any channel they prefer.
+Once the ROI is determined, MyoProfiler defines a spline using the selected points as the controls. The generated spline appears as magenta and in this case it resembles a line as there are only 2 control points. Since all the channels are simultaneously analyzed, software copies the ROI and the splines onto the other channels. Users can define the ROIs in any channel they prefer.
 
 Here is the ROI and spline in the Channel 1 axis.
 
@@ -205,7 +205,7 @@ As a result of the averaging, sarcomere profiles are smoothened and the initial 
 
 <h5>Z line prominence</h5>
 
-Since the extracted profiles are cyclic, it is important to not to mark all the troughs as the Z-line. The software uses an option called prominence to go around this. The default prominence value is 0.5, which means that MyofibrilProfiler is looking for values that are at least half of the maximum intensity of the sampled space measured from a reference point. Users can change this value through the Profiler panel, shown in red rectangle.
+Since the extracted profiles are cyclic, it is important to not to mark all the troughs as the Z-line. The software uses an option called prominence to go around this. The default prominence value is 0.5, which means that MyoProfiler is looking for values that are at least half of the maximum intensity of the sampled space measured from a reference point. Users can change this value through the Profiler panel, shown in red rectangle.
 
 <a href="media/z_line_prominence.png" target="_blank">![z_line_prominence](media/z_line_prominence.png)</a>
 

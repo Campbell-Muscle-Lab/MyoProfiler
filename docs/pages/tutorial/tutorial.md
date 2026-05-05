@@ -11,5 +11,5 @@ layout: page
 * TOC
 {:toc}
 
-Users can start a new analysis and also revisit their old analyses by loading them into the MyofibrilProfiler
+Users can start a new analysis and also revisit their old analyses by loading them into the MyoProfiler
 

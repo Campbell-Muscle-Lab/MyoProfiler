@@ -33,8 +33,11 @@ for i = 1 : (numel(prof_x)-1)
     cy_t = cy+d;
     cy_b = cy-d;
 
-    im_profile_rot(x_profile(i)) = mean(im_rot(cx, (cy_b):(cy_t)));
+    % im_profile_rot(x_profile(i)) = mean(im_rot(cx, (cy_b):(cy_t)));
+    im_profile_rot(x_profile(i)) = mean(im_rot((cy_b):(cy_t),cx));
 
+    % figure(99999)
+    % % plot(im_profile_rot)
 
 
     if (mod(i,10) == 1)
