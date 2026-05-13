@@ -12,8 +12,8 @@ layout: page
 
 This page instructs you on how to install MyoProfiler as a MATLAB App.
 
-+ The MATLAB App installer file can be downloaded from the [GitHub page](https://github.com/Campbell-Muscle-Lab/MyoProfiler/tree/main/app/05May26). 05May26 installer is the current MyoProfiler build. In this case, the installer file is located under your designated Downloads folder.
-+ Users can also clone the MyoProfiler repository and access the MATLAB App installer file. The installer file is located under `<repo>app\05May26`.  The instructions on how to clone a repository can be found [here](../cloning_myofibrilprofiler/cloning_myofibril_profiler.html).
++ The MATLAB App installer file can be downloaded from the [GitHub page](https://github.com/Campbell-Muscle-Lab/MyoProfiler/tree/main/app/13May26). 13May26 installer is the current MyoProfiler build. In this case, the installer file is located under your designated Downloads folder.
++ Users can also clone the MyoProfiler repository and access the MATLAB App installer file. The installer file is located under `<repo>app\13May26`.  The instructions on how to clone a repository can be found [here](../cloning_myofibrilprofiler/cloning_myofibril_profiler.html).
 
 Locate `MyoProfiler.mlappinstall` file on your computer.
 

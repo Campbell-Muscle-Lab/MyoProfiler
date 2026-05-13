@@ -12,8 +12,8 @@ layout: page
 
 This page instructs you on how to install MyoProfiler as a stand-alone application.
 
-+ The installer file can be downloaded from the [GitHub page](https://github.com/Campbell-Muscle-Lab/MyoProfiler/tree/main/bin/05May26). 05May26 installer is the current MyoProfiler build. In this case, the installer file is located under your designated Downloads folder.
-+ Users can also clone the MyoProfiler repository and access the zipped installer file. The installer file is located under `<repo>bin\05May26`. The instructions on how to clone a repository can be found [here](../cloning_myofibrilprofiler/cloning_myofibril_profiler.html).
++ The installer file can be downloaded from the [GitHub page](https://github.com/Campbell-Muscle-Lab/MyoProfiler/tree/main/bin/13May26). 13May26 installer is the current MyoProfiler build. In this case, the installer file is located under your designated Downloads folder.
++ Users can also clone the MyoProfiler repository and access the zipped installer file. The installer file is located under `<repo>bin\13May26`. The instructions on how to clone a repository can be found [here](../cloning_myofibrilprofiler/cloning_myofibril_profiler.html).
 
 Locate the installer file on your computer and unzip it. Once the installer is unzipped, double-click the `MyoProfiler.exe` file.
 

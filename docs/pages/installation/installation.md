@@ -11,4 +11,4 @@ layout: page
 * TOC
 {:toc}
 
-Users can use MyofibrilProfiler either through MATLAB or as a stand alone application. The installation files for both approaches can be downloaded or obtained by cloning the GitHub repository.
+Users can use MyoProfiler either through MATLAB or as a stand alone application. The installation files for both approaches can be downloaded or obtained by cloning the GitHub repository.

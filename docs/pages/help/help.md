@@ -2,7 +2,7 @@
 layout: page
 title: Help
 nav_order: 4
-has_childre: False
+has_children: False
 ---
 
 # Help
