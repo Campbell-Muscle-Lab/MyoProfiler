@@ -7,7 +7,7 @@ nav_order: 2
 layout: page
 ---
 
-# **Start new analysis**
+# **Z line analysis**
 
 This tutorial provides simple instructions on performing a new analysis with MyoProfiler. Clicking on any of the images on this page will open a larger version in a new browser window. The preparation shown here was probed for a Z line associated protein and a M line associated protein. The analysis and the tutorial focuses on the Z lines.
 
