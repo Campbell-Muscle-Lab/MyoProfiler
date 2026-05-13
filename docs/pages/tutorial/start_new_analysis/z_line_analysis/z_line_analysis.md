@@ -222,14 +222,15 @@ In the above video, the images are analyzed using along a spline. This method is
 <p style="text-align: justify;">
 The software determines the "straightness" of the Z lines using a metric called tortuosity. Tortuosity is the ratio of the effective length of stripes to distance between its endpoints.
 
+<br>    
 $Tortuosity= \frac{\text{Actual path length}}{\text{Distance between endpoints}}$
+<br>
 
 Tortuosity calculation requires a quadrilateral ROI and would not be quantified for "line scan" ROIs. Each image is automatically binarized as soon as they are loaded into the interface. Once the user selects their ROI, software picks the region of interest and <a href = "https://www.mathworks.com/help/images/ref/bwskel.html">skeletonize</a> binary elements to lines. While the distance between endpoints determined as the "straight line" distance between two points in two dimensional space, the actual path length is calculated as the summation of pixel to pixel distance along the each line.
-
 </p>
 
-
-
+<br>
+<br>
 ### Export results
 
 Once users are done with their analysis, they can export the analysis into their host computers. A summary Excel sheet and an analysis file with .myoprof extension are saved. The exported analysis files can be loaded back into the software to [revisit the analysis](../load_analysis/load_analysis.html).
