@@ -1,5 +1,5 @@
 ---
-title: Start new analysis
+title: Z line analysis 
 has_children: false
 parent: Start new analysis
 grand_parent: Tutorial
