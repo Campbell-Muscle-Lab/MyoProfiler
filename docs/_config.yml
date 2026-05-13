@@ -1,6 +1,7 @@
 title: MyoProfiler
 description: An open-source to extract profiles of striations
 remote_theme: pmarsceill/just-the-docs
+math: mathjax
 
 url: https://www.campbellmusclelab.org
 
