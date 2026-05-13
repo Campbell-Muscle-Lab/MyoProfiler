@@ -1,5 +1,5 @@
 ---
-title: Start new analysis
+title: A band analysis
 has_children: false
 parent: Start new analysis
 grand_parent: Tutorial
@@ -7,7 +7,7 @@ nav_order: 1
 layout: page
 ---
 
-# **Start new analysis**
+# **A band analysis**
 
 This tutorial provides simple instructions on performing a new analysis with MyoProfiler. Clicking on any of the images on this page will open a larger version in a new browser window. The preparation shown here was probed for myosin heavy chain and an associated protein.
 
